@@ -12,14 +12,12 @@ try {
 } catch (e) {
   ghostConfig = {
     development: {
-      apiUrl: process.env.GHOST_API_URL,
-      contentApiKey: process.env.GHOST_CONTENT_API_KEY,
-      version: process.env.GHOST_VERSION
+      apiUrl: 'https://shotaroakahori.ghost.io',
+      contentApiKey: '4340fa10d33274b5540421630e'
     },
     production: {
-      apiUrl: process.env.GHOST_API_URL,
-      contentApiKey: process.env.GHOST_CONTENT_API_KEY,
-      version: process.env.GHOST_VERSION
+      apiUrl: 'https://shotaroakahori.ghost.io',
+      contentApiKey: '4340fa10d33274b5540421630e'
     }
   };
 } finally {
