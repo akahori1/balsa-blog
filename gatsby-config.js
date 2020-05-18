@@ -13,11 +13,11 @@ try {
   ghostConfig = {
     development: {
       apiUrl: 'https://shotaroakahori.ghost.io',
-      contentApiKey: '4340fa10d33274b5540421630e'
+      contentApiKey: 'c4b27a8d29d3ff8a978c510f69'
     },
     production: {
       apiUrl: 'https://shotaroakahori.ghost.io',
-      contentApiKey: '4340fa10d33274b5540421630e'
+      contentApiKey: 'c4b27a8d29d3ff8a978c510f69'
     }
   };
 } finally {
